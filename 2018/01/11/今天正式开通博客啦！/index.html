@@ -8,11 +8,15 @@
 </ul>
 <h5 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h5><ul>
 <li>下载安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js</a>和<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a></li>
-<li>运行git bash输入ssh-keygen -t rsa,回车三下获取密钥文件id_rsa和公钥文件id_rsa.pub,复制公钥文件中所有内容添加到github上进行SSH授权，添加后在git bash中输入ssh -T git@github.com进行测试是否成功</li>
-<li><img src="https://images2017.cnblogs.com/blog/1228928/201712/1228928-20171210171822615-599279373.png" alt=""></li>
+<li>运行git bash输入ssh-keygen -t rsa,回车三下获取密钥文件id_rsa和公钥文件id_rsa.pub</li>
+<li>复制公钥文件中所有内容添加到github上进行SSH授权，添加后在git bash中输入ssh -T git@github.com进行测试是否成功</li>
 </ul>
 <h5 id="设置本地博客配置"><a href="#设置本地博客配置" class="headerlink" title="设置本地博客配置"></a>设置本地博客配置</h5><ul>
-<li>任意地方创建你的空博客文件夹，右键进入git bash，输入npm install -g hexo安装hexo（回车后等待即可）<img src="https://images2017.cnblogs.com/blog/1228928/201712/1228928-20171210182333536-1195927792.png" alt=""></li>
-<li>输入npm install hexo –save这个时候你会看到命令行出现了一堆白字，紧接着输入hexo v查看是否安装成功是</li>
+<li>任意地方创建你的空博客文件夹，右键进入git bash，输入npm install -g hexo安装hexo（回车后等待即可）</li>
+<li>输入npm install hexo –save这个时候你会看到命令行出现了一堆白字，紧接着输入hexo v查看是否安装成功</li>
+<li>继续输入hexo init初始化hexo</li>
+<li>下载好了，再输入hexo s</li>
 </ul>
+<p>这时候我们可以打开浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ,我们的博客就建成功了</p>
+<p><strong>有点糙，详细教程请参考<a href="https://www.cnblogs.com/trista222/p/8017300.html" target="_blank" rel="noopener">结合hexo在GitHub上搭建个人博客——全过程</a>,嘻嘻…</strong></p>
 </div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2018-01-11</span><i class="fa fa-tag"></i></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" href="http://twitter.com/home?status=,http://yoursite.com/2018/01/11/今天正式开通博客啦！/,Slm_拉宝贝,今天正式开通博客啦！,;"></a></div></div><div class="pagination"><ul class="clearfix"></ul></div></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>
